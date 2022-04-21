@@ -1,10 +1,22 @@
+import { Routes, Route } from 'react-router-dom';
+import Details from './components/DetailsPage/Details';
+import Home from './components/HomePage/Home';
+// import Nav from './components/Navbar/Nav';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Capstone Project</h1>
-    </div>
+    <>
+      {/* <Nav /> */}
+      <div className="container">
+        <div>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="details" element={<Details />} />
+          </Routes>
+        </div>
+      </div>
+    </>
   );
 }
 
