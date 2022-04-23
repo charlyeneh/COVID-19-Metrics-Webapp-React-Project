@@ -10,6 +10,10 @@ This is a simple metric web-app for tracking of Covid-19 cases in Africa. Using 
 
 [Live Demo Link](https://livedemo.com)
 
+## Loom Video Presentation
+
+[Loom Video Link](https://www.loom.com/share/238c1de69db44231ad5919212f2a118c)
+
 ## Built With
 
 - HTML5
