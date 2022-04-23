@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: lato, sans-serif;
+}
+
+.search-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.search-input h4 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  font-size: 1.7rem;
+}
+
+.search-input input {
+  padding: 0.4rem 0.2rem;
+  width: 15rem;
+  border-radius: 2rem;
+}
+
+.display-country {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 45rem;
+  height: 10rem;
+  margin: 1rem auto;
+}
+
+.display-country > * {
+  width: 20rem;
+  height: 10rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  background-image: url('./covid-img.jpg');
+  opacity: 0.8;
+  margin: 0.4rem 0.6rem;
+}
+
+a {
+  text-decoration: none;
+  color: #f2f6f7;
+  align-self: center;
+  text-align: center;
+}
+
+a.country_link:hover {
+  transform: scale(1.1);
+}
+
+.country_link {
+  display: flex;
+  flex-direction: column;
+}
+
+.arrow {
+  align-self: flex-end;
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.6rem;
+  color: white;
+  font-size: x-large;
+}
+
+.country_name > * {
+  color: white;
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.loading {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .display-country {
+    width: 350px;
+  }
+
+  .display-country > * {
+    width: 20rem;
+    height: 10rem;
+  }
+}

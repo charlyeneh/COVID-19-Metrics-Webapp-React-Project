@@ -1,0 +1,37 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ed548b;
+  align-items: center;
+  padding: 1.5rem 0;
+}
+
+.left-nav {
+  display: flex;
+  align-items: center;
+  margin-left: 1.5rem;
+}
+
+.nav-arrow {
+  font-size: 30px;
+}
+
+.nav-header {
+  margin-left: 1rem;
+  max-width: 20rem;
+  text-align: center;
+}
+
+.nav-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-icons > * {
+  margin-right: 0.5rem;
+  margin-left: 1rem;
+}
+
+.navbar > * {
+  color: white;
+}
