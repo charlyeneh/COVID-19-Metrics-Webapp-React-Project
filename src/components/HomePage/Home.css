@@ -84,7 +84,7 @@ a.country_link:hover {
 
 @media only screen and (max-width: 600px) {
   .display-country{
-    width: 400px;
+    width: 350px;
   }
   .display-country >* {
   width: 20rem;

@@ -3,6 +3,7 @@ import { useSelector } from 'react-redux';
 // import { useParams, Link } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
 import Nav2 from '../Navbar/Nav2';
+import './details.css';
 
 const Details = () => {
   const params = useParams();
@@ -55,29 +56,12 @@ const Details = () => {
                   {covidData[0].NewDeath}
                 </span>
               </div>
-            ) : <h1>***Loading***</h1>}
+            ) : <h1>...loading</h1>}
         </div>
+        <div className="footer">Footer</div>
       </div>
     </>
   );
 };
 
 export default Details;
-
-// import React from 'react';
-// import Nav2 from '../Navbar/Nav2';
-// import './details.css';
-
-// const Details = () => (
-//   <>
-//     <Nav2 />
-//     <div className="details-container">
-//       <div>
-//         <h3>Country Name</h3>
-//         <div>details container</div>
-//       </div>
-//     </div>
-//   </>
-// );
-
-// export default Details;
