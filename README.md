@@ -8,7 +8,7 @@ This is a simple metric web-app for tracking of Covid-19 cases in Africa. Using 
 ![screenshot](./src/components/images/screenshot.png)
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://charlyeneh-covid-19-metrics-app.netlify.app/)
 
 ## Loom Video Presentation
 
