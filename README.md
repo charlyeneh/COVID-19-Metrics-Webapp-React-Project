@@ -1,72 +1,76 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
+React Capstone Project - COVID-19 Metrics Webapp
 
 > Description the project.
+This is a simple metric web-app for tracking of Covid-19 cases in Africa. Using the top 20 african countries as a case study.
 
-
-## Built With
-
-- Major languages
-- Frameworks
-- Technologies used
-
+![screenshot](./src/images/screenshot.png)
 ## Live Demo (if available)
 
 [Live Demo Link](https://livedemo.com)
 
+## Built With
 
-## Getting Started
+- HTML5
+- CSS3
+- JavaScript
+- React (CRA)
+- Redux
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
+## Live Demo (if available)
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-### Setup
+Node.js
+npm
 
-### Install
+### 1. `npm install`
 
-### Usage
+Install all the dependencies needed for the project to work correctly.
+
+### 2. `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
 ### Run tests
+### `npm test`
+
+Launches the test runner in the interactive watch mode.
 
 ### Deployment
+### `npm run build`
 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
+The build is minified and the filenames include the hashes.\
+This makes the app ready to be deployed!
 
 ## Authors
 
-👤 **Author1**
+👤 **Eneh Charles Chukwunweike**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@charlyeneh](https://github.com/charlyeneh)
+- Twitter: [@twitterhandle](https://twitter.com/ProgrammerBaby)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/charles-chukwunweike-eneh/)
 
 ## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
+## Acknowledgments 🤝
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse Curriculum
 
 ## 📝 License
 
