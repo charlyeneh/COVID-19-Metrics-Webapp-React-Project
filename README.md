@@ -3,10 +3,9 @@
 # Project Name
 React Capstone Project - COVID-19 Metrics Webapp
 
-> Description the project.
 This is a simple metric web-app for tracking of Covid-19 cases in Africa. Using the top 20 african countries as a case study.
 
-![screenshot](./src/images/screenshot.png)
+![screenshot](./src/components/images/screenshot.png)
 ## Live Demo (if available)
 
 [Live Demo Link](https://livedemo.com)
