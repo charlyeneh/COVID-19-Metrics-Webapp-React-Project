@@ -1,11 +1,13 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
-React Capstone Project - COVID-19 Metrics Webapp
+
+React Capstone Project - COVID-19 Metrics WebApp
 
 This is a simple metric web-app for tracking of Covid-19 cases in Africa. Using the top 20 african countries as a case study.
 
 ![screenshot](./src/components/images/screenshot.png)
+
 ## Live Demo (if available)
 
 [Live Demo Link](https://charlyeneh-covid-19-metrics-app.netlify.app/)
@@ -44,11 +46,13 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 ### Run tests
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.
 
 ### Deployment
+
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
